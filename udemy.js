@@ -1,23 +1,20 @@
 "use strict";
 
-console.log('hi' + '-bitch');
-console.log(4 + '5');
+let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
 
-let incr = 10,
-    decr = 10;
+let count = numberOfFilms;
 
+let movies={
 
-//++incr;
-//--decr;
+};
 
-console.log(++incr);
-console.log(--decr);
+let actors={
 
-console.log(5 % 2);
+};
 
-console.log(2 + 2 * 2  !==8);
+let genres=[];
 
-const isChecked = true,
-    isClose = false;
+let privat=false;
 
-console.log(isChecked || !isClose);
+console.log(count);
+
