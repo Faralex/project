@@ -7,9 +7,10 @@ let last = prompt('Ласт фильм?', 0);
 
 let nrav = prompt('Оценка?', 0);
 
-let count = numberOfFilms;
 
 let personalMovieDB = {
+
+    count: numberOfFilms,
 
     movies: {
 
@@ -21,13 +22,13 @@ let personalMovieDB = {
 
     genres: [],
 
-    privat: false
+    privat: false,
 };
 
 personalMovieDB.movies[0] = last;
 
 personalMovieDB.movies[1] = nrav;
 
-console.log(count);
+console.log(personalMovieDB.count);
 
 console.log(personalMovieDB.movies);
