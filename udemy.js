@@ -25,10 +25,6 @@ let personalMovieDB = {
     privat: false,
 };
 
-personalMovieDB.movies[0] = last;
+personalMovieDB.movies[last] = nrav;
 
-personalMovieDB.movies[1] = nrav;
-
-console.log(personalMovieDB.count);
-
-console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
