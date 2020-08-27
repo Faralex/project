@@ -1,20 +1,33 @@
 "use strict";
 
-let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
+
+let numberOfFilms = prompt('Сколько фильмов чекнул?');
+
+let last = prompt('Ласт фильм?', 0);
+
+let nrav = prompt('Оценка?', 0);
 
 let count = numberOfFilms;
 
-let movies={
+let personalMovieDB = {
 
+    movies: {
+
+    },
+
+    actors: {
+
+    },
+
+    genres: [],
+
+    privat: false
 };
 
-let actors={
+personalMovieDB.movies[0] = last;
 
-};
-
-let genres=[];
-
-let privat=false;
+personalMovieDB.movies[1] = nrav;
 
 console.log(count);
 
+console.log(personalMovieDB.movies);
